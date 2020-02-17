@@ -8,10 +8,12 @@ const ContactItem = ({ contact }) => {
         {name}{' '}
         <span
           className={
-            'badge' +
+            'badge ' +
             (type === 'professional' ? 'badge-success' : 'badge-primary')
           }
-        ></span>
+        >
+          {type.charAt(0).toUpperCase() + type.slice(1)}
+        </span>
       </h3>
     </div>
   );
