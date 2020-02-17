@@ -9,7 +9,7 @@ const ContactItem = ({ contact }) => {
         <span
           className={
             'badge' +
-            (type === 'prpfessional' ? 'badge-success' : 'badge-primary')
+            (type === 'professional' ? 'badge-success' : 'badge-primary')
           }
         ></span>
       </h3>
