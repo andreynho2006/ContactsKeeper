@@ -74,7 +74,10 @@ const ContactState = props => {
       value={{
         contacts: state.contacts,
         addContact,
-        deleteContact
+        deleteContact,
+        current: state.current,
+        setCurrent,
+        clearCurrent
       }}
     >
       {props.children}
